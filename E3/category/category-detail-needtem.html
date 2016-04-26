@@ -91,6 +91,8 @@
 	</div>
 	
 	<script src="../js/mui.min.js" charset="UTF-8"></script>
+	<script src="../js/md5.js" charset="UTF-8"></script>
+	<script src="../js/load.js" charset="UTF-8"></script>
 	<script src="../js/ajax.js" charset=""></script>
 	<script src="../js/own.js" charset="UTF-8"></script>
 	
@@ -162,7 +164,7 @@
 					datalist.push(dataItem);
 					var li = document.createElement('li');
 					li.className = 'mui-table-view-cell mui-media mui-col-xs-6';
-					li.innerHTML = '<a href="'+item.product_id+'"><div class= "bgDiv"><img class="mui-media-object" src="http://file.huihoo.com'+item.detail_image_url+'"/><div class="mui-media-body"><p class="mui-ellipsis-2">'+item.product_name+'</p><p class="price-one">¥'+item.product_price.default_price+'</p><p class="price-two">¥'+item.product_price.list_price+'</p></div></div></a>';
+					li.innerHTML = '<a href="'+item.product_id+'"><div class= "bgDiv"><img class="mui-media-object" src="'+item.detail_image_url+'"/><div class="mui-media-body"><p class="mui-ellipsis-2">'+item.product_name+'</p><p class="price-one">¥'+item.product_price.default_price+'</p><p class="price-two">¥'+item.product_price.list_price+'</p></div></div></a>';
 					productsList.appendChild(li);
 				});
 			}else {

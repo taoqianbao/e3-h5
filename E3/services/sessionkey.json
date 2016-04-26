@@ -1,0 +1,4 @@
+//ajax_get_SessionKey   http://182.140.244.73:91/sessionkey
+{
+    "session_key": "ABCDEFGHIJKLMNOKP"
+}

@@ -147,7 +147,8 @@
 	<div id="detailcontent" class="mui-content  own-content-padding">
 		
 	</div>
-	
+	<script src="../js/md5.js" charset="UTF-8"></script>
+	<script src="../js/load.js" charset="UTF-8"></script>
 	<script src="../js/ajax.js" charset="UTF-8"></script>
 	<script src="../js/mui.min.js" charset="UTF-8"></script>
 	<script src="../js/own.js" charset="UTF-8"></script>
@@ -231,7 +232,7 @@
 				//设置itemdetai
 				var div = document.createElement('div');
 				div.className = 'mui-slider-item';
-				var html = '<a href="#"><img src="http://file.huihoo.com'+item+'"/></a>';
+				var html = '<a href="#"><img src="'+item+'"/></a>';
 				div.innerHTML = html;
 				picSliderGroup.appendChild(div);
 				//设置itemindicator

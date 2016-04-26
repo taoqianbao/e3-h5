@@ -86,6 +86,8 @@
 	</div>
 	
 	<script src="../js/mui.min.js" charset="UTF-8"></script>
+	<script src="../js/md5.js" charset="UTF-8"></script>
+	<script src="../js/load.js" charset="UTF-8"></script>
 	<script src="../js/ajax.js" charset="UTF-8"></script>
 	<script src="../js/own.js" charset="UTF-8"></script>
 	<script type="text/javascript" charset="UTF-8">
@@ -114,7 +116,7 @@
 				if (categoryStair.length <= 0) {
 					ajax_get_first_category({
 						status:'THREE'
-					});
+					}, categoryStairSuccess);
 				}
 			},false);
 			
@@ -156,7 +158,7 @@
 				var indexitem = {};
 				indexitem.id = item.product_category_id;
 				indexitem.name = item.category_name;
-				indexitem.imageurl = 'http://file.huihoo.com/' + item.link_one_image_url
+				indexitem.imageurl = '' + item.link_one_image_url
 				categoryStair[index] =  indexitem;
 				
 				var html = '<a class="mui-control-item" href="#category'+categoryStair[index].id+'"><span><img src="'+categoryStair[index].imageurl+'"/>&nbsp&nbsp</span>'+categoryStair[index].name+'</a>';

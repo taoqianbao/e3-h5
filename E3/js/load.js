@@ -9,7 +9,7 @@
 	 		dataload.style.width = '100%';
 	 		dataload.style.textAlign = 'center';
 			dataload.style.top = '70px';
-			dataload
+			//dataload
 	 		
 	 		dataload.style.zIndex = 1000000;
 	 		body.appendChild(dataload);

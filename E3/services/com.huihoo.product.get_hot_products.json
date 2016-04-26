@@ -1,0 +1,21 @@
+{
+	"code": "000000",
+	"hotSaleProducts": [
+		{
+			"product_price": "33.2",
+			"product_name": "11111111",
+			"large_image_url": "http://www.sd.xinhuanet.com/news/2016-04/19/1118662364_14610266676161n.jpg",
+			"product_id": 3
+		}, {
+			"product_price": "2",
+			"product_name": "2222222",
+			"large_image_url": "http://www.sd.xinhuanet.com/news/2016-04/19/1118662364_14610266676161n.jpg",
+			"product_id": 2
+		}, {
+			"product_price": "22.2",
+			"product_name": "33333333",
+			"large_image_url": "http://www.sd.xinhuanet.com/news/2016-04/19/1118662364_14610266676161n.jpg",
+			"product_id": 1
+		}
+	]
+}
